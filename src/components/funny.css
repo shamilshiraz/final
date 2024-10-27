@@ -1,0 +1,95 @@
+.funnycont{
+    display: flex;
+    transform: rotate(180deg);
+    padding: 20px;
+}
+.v1{
+ height: 300px;
+ margin-left: 50px;
+}
+.v2{
+   height: 220px; 
+}
+.v3{
+   height: 400px; 
+}
+.v4{
+    height: 300px; 
+}
+.v5{
+    height: 130px;
+
+    
+}
+.v6{
+    height: 325px;
+}
+.v7{
+    height: 320px;
+    
+}
+
+#vv{
+    padding-inline: 10px;
+    transform: rotate(180deg);
+
+}
+@media only screen and (max-width: 768px){
+    .funnycont{
+        margin-top: 100px;
+    }
+    .v1{
+        height: 100px;
+       }
+       .v2{
+          height: 120px; 
+       }
+       .v3{
+          height: 100px; 
+       }
+       .v4{
+           height: 80px; 
+       }
+       .v5{
+           height: 50px;
+       
+           
+       }
+       .v6{
+           height: 35px;
+       }
+       .v7{
+           height: 30px;
+           
+       }
+       
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .funnycont{
+        margin-top: 100px;
+    }
+    .v1{
+        height: 180px;
+       }
+       .v2{
+          height: 200px; 
+       }
+       .v3{
+          height: 130px; 
+       }
+       .v4{
+           height: 180px; 
+       }
+       .v5{
+           height: 80px;
+       
+           
+       }
+       .v6{
+           height: 105px;
+       }
+       .v7{
+           height: 105px;
+           
+       }
+}

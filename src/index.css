@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'lemon';
+  src: url('./fonts/LEMONMILK-Light.otf');
+}
+@font-face {
+  font-family: 'amela';
+  src: url('./fonts/Amelaryas.otf');
+}
+@font-face {
+  font-family: 'hack';
+  src: url('./fonts/Hack-Regular.ttf');
+}
+@font-face {
+  font-family: 'sohne';
+  src: url('./fonts/TestSohne-Kraftig-BF663d89cd37e26.otf');
+}
+@font-face {
+  font-family: 'light';
+  src: url('./fonts/TestSohne-Leicht-BF663d89cd4952e.otf');
+}

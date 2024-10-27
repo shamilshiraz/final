@@ -1,0 +1,42 @@
+.holderworks{
+    position: relative;
+    height: 300vh;
+    /* font-family: 'lemon'; */   
+}
+.holder2works{
+    height: 100vh;
+    top: 0;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    overflow: hidden;
+
+}
+.holder3{
+    display: flex;
+    gap: 16px;
+    padding-bottom: 100px;
+    width: 500%;
+
+}
+.workh1{
+    padding-top: 50px;
+    font-size: 24px;
+}
+#workpara{
+    font-size: 24px;
+}
+#archives{
+
+}
+
+@media only screen and (max-width: 768px){
+    .holder3{
+    }
+    .holderworks{
+        height: 500vh;
+    }
+    #archives{
+        /* display: none; */
+    }
+}

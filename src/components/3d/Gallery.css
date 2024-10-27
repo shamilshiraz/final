@@ -1,0 +1,163 @@
+.gallerymain{
+    display: flex;
+    padding-bottom: 100px;
+    height: 100vh;
+    margin-top: 100px;
+    width: 100vw;
+    font-family: 'sohne';
+}
+
+.iabout2{
+    font-size: 36px;
+    padding-top:-20px ;
+}
+.holderfix{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme{
+    height: 20vh;
+    width: 400px;
+    overflow: hidden;
+    padding-left: 50px;
+}
+
+/* horizontal scroll */
+.holder{
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+.holderin{
+    position: sticky;
+    top: 0;
+    width: 400px;
+    color: bisque;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topabt{
+    height: 50vh;
+    position: sticky;
+    top: 0;
+    width: 400px;
+    background-color: white;
+    border-bottom: 5px solid gray;
+
+
+}
+.botabt{
+    height: 50vh;
+    width: 400px;
+    background-color: rgba(251, 250, 250, 0.952);
+}
+
+.holder2{
+    height: 100vh;
+    top: 0;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    overflow: hidden;
+    /* background-image: url('https://as1.ftcdn.net/v2/jpg/02/78/96/54/500_F_278965444_947AWVAo9zMJOSOvnOhYAZpPtAQHoisn.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: 400px; */
+    background-color: rgb(219, 211, 205);
+    color: rgb(15, 14, 14);
+}
+.videos{
+    height: 400px;
+    width: 250px;
+    margin-bottom: 150px;
+}
+
+/* gallery divs */
+#introtext{
+    font-size: 28px;
+    width: 800px;
+    height: 200px;
+
+}
+.galley{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 40vh; */
+    /* border-top: 1px solid black; */
+    padding: 5px;
+    /* margin-top: 150px; */
+    width: 100vw;
+    rotate: (180deg);
+    padding-right: 150px;
+    transform: rotate(180deg);
+    margin-left: -100px;
+}
+
+.vid1{
+    height: 300px;
+    padding-right: 10px;
+    padding-left: -80px;
+    bottom: 10px;
+    transform: rotate(180deg);
+
+}
+.vid2{
+    padding-right: 10px;
+    bottom: 10px;
+    height: 280px;
+    transform: rotate(180deg);
+
+}
+.vid3{
+    height: 80px;
+    padding-right: 10px;
+    bottom: 10px;
+    transform: rotate(180deg);
+
+}
+.vid4{
+    height: 400px;
+    padding-right: 10px;
+    bottom: 10px;
+    transform: rotate(180deg);
+
+}
+.vid5{
+    height: 250px;
+    padding-right: 10px;
+    bottom: 10px;
+    transform: rotate(180deg);
+}
+.vid6{
+    height: 280px;
+    padding-right: 10px;
+    bottom: 10px;
+    transform: rotate(180deg);
+}
+.vid7{
+    height: 120px;
+    padding-right: 10px;
+    bottom: 10px;
+    transform: rotate(180deg);
+
+}
+.btsvid{
+    height: 120px;
+    padding-right: 10px;
+    bottom: 10px;   
+}
+.gal{
+    width: 100vw;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire background */
+    z-index: -1; /* Make sure the video stays behind other content */
+  }
+
