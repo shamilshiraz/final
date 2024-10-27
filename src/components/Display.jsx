@@ -20,7 +20,7 @@ function Display() {
 
   return (
     <>
-      <div className="display">
+      <div className="display" style={{backgroundImage:'url(./NBHD.jpg)',color:'antiquewhite'}}>
         <div className="dispara">
           <p className='disheading'>THE NEIGHBORHOOD</p>
           <marquee behavior="" direction="" scrollamount="10" scrolldelay="50" className='dismarq'>

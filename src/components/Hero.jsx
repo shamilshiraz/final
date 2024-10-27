@@ -68,7 +68,7 @@ const month = String(currentDate.getMonth() + 1).padStart(2, '0');
 
 
   return (
-    <div className="herocont" id='hero'>
+    <div className="herocont" id='hero' style={{backgroundImage:'url(/coverbg.JPG)'}}>
             <nav>
         <div className="nav">
           <div className="n1">
