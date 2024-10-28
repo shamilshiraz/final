@@ -62,7 +62,7 @@
 }
 .herocont{
     /* background-color: white; */
-    background-image: url('./coverbg.JPG');  
+    background-image: url('./coverbg.webp');  
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

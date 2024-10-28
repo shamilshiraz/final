@@ -66,6 +66,7 @@ function Displayseven() {
 
         <div className="dis">
           <video
+          preload="auto"
             className="disvideo"
             autoPlay
             muted={!mute} // Dynamically start with mute based on the state

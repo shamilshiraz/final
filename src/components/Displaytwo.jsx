@@ -66,6 +66,7 @@ function Displaytwo() {
 
         <div className="dis" data-aos="fade-left">
         <video
+        preload="auto"
         className="disvideo"
         // controls // Allows play/pause and other controls
         autoPlay={true} // Optionally auto-play the video

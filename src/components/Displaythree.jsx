@@ -67,6 +67,7 @@ function Displaythree() {
 
         <div className="dis" data-aos="fade-left">
         <video
+        preload="auto"
         className="disvideo2"
         // controls // Allows play/pause and other controls
         autoPlay={true} // Optionally auto-play the video
