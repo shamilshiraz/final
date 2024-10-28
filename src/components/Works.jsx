@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 function Works() {
 
-    const[currentImage,setCurrentImage]=useState('NBHD.jpg');
+    const[currentImage,setCurrentImage]=useState('NBHD.webp');
 
     const audioref=useRef(null)
 
