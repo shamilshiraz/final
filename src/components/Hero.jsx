@@ -68,7 +68,7 @@ const month = String(currentDate.getMonth() + 1).padStart(2, '0');
 
 
   return (
-    <div className="herocont" id='hero' style={{backgroundImage:'url(/coverbg.JPG)'}}>
+    <div className="herocont" id='hero' style={{backgroundImage:'url(/coverbg.webp)'}}>
             <nav>
         <div className="nav">
           <div className="n1">
@@ -89,8 +89,8 @@ const month = String(currentDate.getMonth() + 1).padStart(2, '0');
           </div>
           <div className="n1">
             <p id='smDs'>Let's connect</p>
-            <p><a href="">INST</a> <a href="">WA</a></p>
-            <p><a href="">EMAIL</a> <a href="">DRIVE</a></p>
+            <p><a href="">INST</a> <a href="https://wa.me/971543303244">WA</a></p>
+            <p><a href="">EMAIL</a></p>
           </div>
         </div>
         
@@ -103,7 +103,7 @@ const month = String(currentDate.getMonth() + 1).padStart(2, '0');
       </div>
       <div className="herobody">
         <div className="thmheroC">
-        <img src='./cover.JPG' className='thmhero' alt="" />
+        <img src='./cover.webp' className='thmhero' alt="" />
         </div>
         <div className="heronameC">        <p className="heroname">         
           {heroName}     </p>        </div>
@@ -118,7 +118,7 @@ const month = String(currentDate.getMonth() + 1).padStart(2, '0');
                           </section>
                           <p>أبو ظبي</p>
                         </div> */}
-      <p className='aboutme' data-aos="fade-up" style={{marginBlock:'40vh'}}><img src="./cover.JPG" height={'150px'} alt="" />A dedicated videographer with roots in Kerala, now based in the UAE. My passion lies in capturing compelling stories through the lens, drawing inspiration from my love for movies and the art of framing every moment with precision and creativity.</p>
+      <p className='aboutme' data-aos="fade-up" style={{marginBlock:'40vh'}}><img src="./cover.webp" height={'150px'} alt="" />A dedicated videographer with roots in Kerala, now based in the UAE. My passion lies in capturing compelling stories through the lens, drawing inspiration from my love for movies and the art of framing every moment with precision and creativity.</p>
 
       {/* <BTS/>
       <Texting/>

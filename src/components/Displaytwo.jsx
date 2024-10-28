@@ -20,7 +20,7 @@ function Displaytwo() {
   };
 
   return (
-    <div className="display2" style={{backgroundImage:'url(./mm-min.jpg)'}}>
+    <div className="display2" style={{backgroundImage:'url(./mm-min.webp)'}}>
 
       <div className="dispara" data-aos="fade-right">
         <p className='disheading'>MOUZ MARI</p>

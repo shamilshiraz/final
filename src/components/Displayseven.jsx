@@ -19,7 +19,7 @@ function Displayseven() {
 
   return (
     <>
-      <div className="display" style={{backgroundImage:'url(./works/lrbg.jpg)',color:'white'}}>
+      <div className="display" style={{backgroundImage:'url(./works/lrbg.webp)',color:'white'}}>
         <div className="dispara">
           <p className='disheading'>LEADRIGHTS AUTOMOTIVE</p>
           <marquee behavior="" direction="" scrollamount="10" scrolldelay="50" className='dismarq'>

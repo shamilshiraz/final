@@ -20,7 +20,7 @@ function Displayeight() {
   };
 
   return (
-    <div className="display3" style={{backgroundImage:'url(/works/aibg.png)',color:'white'}}>
+    <div className="display3" style={{backgroundImage:'url(/works/aibg.webp)',color:'white'}}>
 
       <div className="dispara" data-aos="fade-right">
         <p className='disheading'>AI CIRCLE</p>

@@ -20,7 +20,7 @@ function Displaythree() {
   };
 
   return (
-    <div className="display3" style={{backgroundImage:'url(/works/local.webp.jpg)'}}>
+    <div className="display3" style={{backgroundImage:'url(/works/local.webp)'}}>
 
       <div className="dispara" data-aos="fade-right">
         <p className='disheading'>LOCAL AL ZEINA</p>

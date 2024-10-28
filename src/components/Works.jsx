@@ -15,14 +15,14 @@ function Works() {
 
 
     const works = [
-        { id: 1, title: "The NBHD", image: "NBHD.jpg", crew: "nbhd", camera: "Sony A54" },
-        { id: 2, title: "Leadrights Automotive", image: "/works/lr.png", crew: "lr", camera: "Camera 2" },
-        { id: 3, title: "Mouz Mari", image: "MX.jpg", crew: "mouzmari", camera: "Camera 3" },
+        { id: 1, title: "The NBHD", image: "NBHD.webp", crew: "nbhd", camera: "Sony A54" },
+        { id: 2, title: "Leadrights Automotive", image: "/works/lr.webp", crew: "lr", camera: "Camera 2" },
+        { id: 3, title: "Mouz Mari", image: "mm-min.webp", crew: "mouzmari", camera: "Camera 3" },
         { id: 4, title: "LOCAL", image: "/works/local.webp", crew: "zeina", camera: "Camera 4" },
         { id: 5, title: "Redmi 13", image: "/works/redmi.png", crew: "redmi", camera: "Camera 5" },
-        { id: 6, title: "Alburda Awards", image: "/works/ALBURDA.png", crew: "alburda", camera: "Camera 6" },
+        { id: 6, title: "Alburda Awards", image: "/works/ALBURDA.webp", crew: "alburda", camera: "Camera 6" },
         { id: 7, title: "Surour Jolaire", image: "/works/s1.png", crew: "s1", camera: "Camera 7" },
-        { id: 8, title: "Google AI CIRCLE", image: "/works/ai.png", crew: "ai", camera: "Camera 7" }
+        { id: 8, title: "Google AI CIRCLE", image: "/works/ai.webp", crew: "ai", camera: "Camera 7" }
 
         // Add more works here...
     ];
