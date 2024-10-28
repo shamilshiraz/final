@@ -17,7 +17,6 @@ import Displaytwo from './components/Displaytwo';
 import Displayworks from './pages/Displayworks';
 import Aboutme from './pages/Aboutme';
 import Archives from './pages/Archives';
-import Gallery from './components/3d/Gallery';
 import Funny from './components/Funny';
 import Displaythree from './components/Displaythree';
 import Displayfour from './components/Displayfour';

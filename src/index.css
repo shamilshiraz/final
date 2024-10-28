@@ -2,10 +2,7 @@
   font-family: 'lemon';
   src: url('./fonts/LEMONMILK-Light.otf');
 }
-@font-face {
-  font-family: 'amela';
-  src: url('./fonts/Amelaryas.otf');
-}
+
 @font-face {
   font-family: 'hack';
   src: url('./fonts/Hack-Regular.ttf');
