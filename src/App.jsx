@@ -31,7 +31,7 @@ import { IoReturnDownBackOutline } from 'react-icons/io5';
 
 function App() {
   const location = useLocation(); // Get location for AnimatePresence
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [fadeOut, setFadeOut] = useState(false); 
 
   useEffect(() => {

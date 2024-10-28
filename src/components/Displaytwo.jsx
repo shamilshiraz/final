@@ -20,7 +20,7 @@ function Displaytwo() {
   };
 
   return (
-    <div className="display2" style={{backgroundImage:'url(./mm-min.webp)'}}>
+    <div className="display2" style={{backgroundImage:'url(./works/mm-min.webp)'}}>
 
       <div className="dispara" data-aos="fade-right">
         <p className='disheading'>MOUZ MARI</p>
@@ -74,7 +74,7 @@ function Displaytwo() {
         loop={true}
         ref={videoRef}  // Optionally loop the video
       >
-        <source src="/mouzmari.mp4" type="video/mp4" />
+        <source src="/works/mouzmari.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
         </div>

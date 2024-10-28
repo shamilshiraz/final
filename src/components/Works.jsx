@@ -9,15 +9,15 @@ import { Link } from 'react-router-dom';
 
 function Works() {
 
-    const[currentImage,setCurrentImage]=useState('NBHD.webp');
+    const[currentImage,setCurrentImage]=useState('/works/NBHD.webp');
 
     const audioref=useRef(null)
 
 
     const works = [
-        { id: 1, title: "The NBHD", image: "NBHD.webp", crew: "nbhd", camera: "Sony A54" },
+        { id: 1, title: "The NBHD", image: "/works/NBHD.webp", crew: "nbhd", camera: "Sony A54" },
         { id: 2, title: "Leadrights Automotive", image: "/works/lr.webp", crew: "lr", camera: "Camera 2" },
-        { id: 3, title: "Mouz Mari", image: "mm-min.webp", crew: "mouzmari", camera: "Camera 3" },
+        { id: 3, title: "Mouz Mari", image: "/works/mm-min.webp", crew: "mouzmari", camera: "Camera 3" },
         { id: 4, title: "LOCAL", image: "/works/local.webp", crew: "zeina", camera: "Camera 4" },
         { id: 5, title: "Redmi 13", image: "/works/redmi.png", crew: "redmi", camera: "Camera 5" },
         { id: 6, title: "Alburda Awards", image: "/works/ALBURDA.webp", crew: "alburda", camera: "Camera 6" },

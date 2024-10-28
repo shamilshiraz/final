@@ -11,12 +11,12 @@ function Funny() {
 
         </video>
         <video autoPlay muted loop className='v2' id='vv'  >
-            <source src='./shesaid.mp4' type='video/mp4' />
+            <source src='./funny/shesaid.mp4' type='video/mp4' />
              this shit is not working
 
         </video>
         <video autoPlay muted loop className='v3' id='vv'  >
-            <source src='./NBHDv.mp4' type='video/mp4' />
+            <source src='./funny/shesaid.mp4' type='video/mp4' />
              this shit is not working
 
         </video>

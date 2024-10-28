@@ -20,7 +20,7 @@ function Display() {
 
   return (
     <>
-      <div className="display" style={{backgroundImage:'url(./NBHD.webp)',color:'antiquewhite'}}>
+      <div className="display" style={{backgroundImage:'url(./works/NBHD.webp)',color:'antiquewhite'}}>
         <div className="dispara">
           <p className='disheading'>THE NEIGHBORHOOD</p>
           <marquee behavior="" direction="" scrollamount="10" scrolldelay="50" className='dismarq'>
@@ -74,7 +74,7 @@ function Display() {
             loop
             ref={videoRef} // Reference to the video element
           >
-            <source src="/NBHDv.mp4" type="video/mp4" />
+            <source src="/works/NBHDv.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

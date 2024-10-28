@@ -39,17 +39,17 @@ function Mobilehor() {
         <div className="holder2works">
         <div className="video-background-container">
           <video className="video-background" autoPlay loop muted>
-            <source src="/china.mp4" type="video/mp4" />
+            <source src="/archives/china.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
             <motion.div style={{x}} className="holder3">
               <p className='workh1'>//ARCHIVES</p>
-              <Chinatown src='china.mp4'/>
-              <Chinatown src='kodai.mp4'/>
-              <Chinatown src='payyolipooram.mp4'/>
-              <Chinatown src='mumbai.mp4'/>
-              <Chinatown src='newspaper.mp4'/>
+              <Chinatown src='/archives/china.mp4'/>
+              <Chinatown src='/archives/kodai.mp4'/>
+              <Chinatown src='/archives/payyolipooram.mp4'/>
+              <Chinatown src='/archives/mumbai.mp4'/>
+              <Chinatown src='/archives/newspaper.mp4'/>
             </motion.div>
         </div>
     </section>

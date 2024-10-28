@@ -42,25 +42,25 @@ function LazyVideo({ src }) {
 function Horizontal() {
     const targetsec = useRef(null);
     const { scrollYProgress } = useScroll({ target: targetsec });
-    const x = useTransform(scrollYProgress, [0, 1], ['1%', '-108%']);
+    const x = useTransform(scrollYProgress, [0, 1], ['1%', '-128%']);
 
     return (
         <Suspense fallback={<div>Loading...</div>}>
             <section ref={targetsec} className='holderworks' id='archives'>
                 <div className="holder2works">
                     <div className="video-background-container">
-                        <LazyVideo src="/china.mp4" />
+                        <LazyVideo src="/archives/china.mp4" />
                     </div>
                     <motion.div style={{ x }} className="holder3">
                         <p style={{ marginTop: '50px', color: 'gray', position: 'fixed' }}>
                             <Link to={'/'}><IoReturnDownBackOutline /></Link>
                         </p>
                         <p className='workh1'>//ARCHIVES</p>
-                        <Chinatown src='china.mp4' />
-                        <Chinatown src='kodai.mp4' />
-                        <Chinatown src='payyolipooram.mp4' />
-                        <Chinatown src='mumbai.mp4' />
-                        <Chinatown src='newspaper.mp4' />
+                        <Chinatown src='/archives/china.mp4' />
+                        <Chinatown src='/archives/kodai.mp4' />
+                        <Chinatown src='/archives/payyolipooram.mp4' />
+                        <Chinatown src='/archives/mumbai.mp4' />
+                        <Chinatown src='/archives/newspaper.mp4' />
                     </motion.div>
                 </div>
             </section>
