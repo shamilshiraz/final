@@ -83,14 +83,14 @@ const month = String(currentDate.getMonth() + 1).padStart(2, '0');
           </div>
           <div className="n1">
           <p id='smDs'>Sitemap</p>
-          <p style={{color:'grey'}}>INDEX<Link to={'/works'}> WORKS</Link></p>
+          <p style={{color:'grey'}}>INDEX<Link to={'/works'} id='links'> WORKS</Link></p>
            <br />
-          <Link to={'/archives'}>ARCHIVES</Link><Link to={'/contactpage'}> CONTACT</Link>
+          <Link to={'/archives'} id='links'>ARCHIVES</Link><Link to={'/contactpage'} id='links'> CONTACT</Link>
           </div>
           <div className="n1">
             <p id='smDs'>Let's connect</p>
-            <p><a href="">INST</a> <a href="https://wa.me/971543303244">WA</a></p>
-            <p><a href="">EMAIL</a></p>
+            <p><a href="" id='links'>INST</a> <a href="https://wa.me/971543303244" id='links'>WA</a></p>
+            <p><a href="" id='links'>EMAIL</a></p>
           </div>
         </div>
         

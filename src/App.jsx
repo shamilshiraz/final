@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Loading from './components/Loading';
 import Texting from './components/Texting';
 import Horizontal from './components/Horizontal';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Lenis from '@studio-freight/lenis';
 import BTS from './components/BTS';
 import Works from './components/Works';
@@ -14,9 +14,7 @@ import Display from './components/Display';
 import { motion, AnimatePresence } from 'framer-motion'; // Import AnimatePresence
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import Displaytwo from './components/Displaytwo';
-import Displayworks from './pages/Displayworks';
 import Aboutme from './pages/Aboutme';
-import Archives from './pages/Archives';
 import Funny from './components/Funny';
 import Displaythree from './components/Displaythree';
 import Displayfour from './components/Displayfour';
@@ -27,6 +25,10 @@ import Displayeight from './components/Displayeight';
 import Mobilehor from './components/Mobilehorizontal';
 import Tabhor from './components/Tabhor';
 import { IoReturnDownBackOutline } from 'react-icons/io5';
+const Displayworks = lazy(() => import('./pages/Displayworks'));
+const Archives = lazy(() => import('./pages/Archives'));
+const Contact = lazy(() => import('./components/Contact'));
+
 
 
 
@@ -215,28 +217,37 @@ function App() {
                       </motion.div>
                     } />
 
-                     <Route path='/works' element={
-                      <motion.div {...pageTransition}>
-                        <Displayworks/>
-                      </motion.div>
-                    } />
+<Route path='/works' element={
+  <Suspense fallback={<div>Loading...</div>}>
+    <motion.div {...pageTransition}>
+      <Displayworks/>
+    </motion.div>
+  </Suspense>
+} />
+
 
                      <Route path='/aboutme' element={
+                      <Suspense fallback={<div>Loading...</div>}>
                       <motion.div {...pageTransition}>
                         <Aboutme/>
                       </motion.div>
+                      </Suspense>
                     } />
 
                      <Route path='/archives' element={
+                                            <Suspense fallback={<div>Loading...</div>}>
                       <motion.div {...pageTransition}>
                         <Archives/>
                       </motion.div>
+                      </Suspense>
                     } />
                       <Route path='/contactpage' element={
+                                                                    <Suspense fallback={<div>Loading...</div>}>
                       <motion.div {...pageTransition}>
                       <p style={{marginTop:'50px',color:'gray',position:'fixed'}} ><Link to={'/'}><IoReturnDownBackOutline /></Link></p>
                         <Contact/>
                       </motion.div>
+                      </Suspense>
                     } />
                     
                     <Route path='/nbhd' element={

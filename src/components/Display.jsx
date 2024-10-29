@@ -74,7 +74,7 @@ function Display() {
             loop
             ref={videoRef} // Reference to the video element
           >
-            <source src="/works/NBHDv.mp4" type="video/mp4" />
+            <source src="/works/NBHDv.webm" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

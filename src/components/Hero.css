@@ -18,14 +18,7 @@
     overflow: hidden;
     /* margin-inline: 5vw; */
 }
-/* .n1{
-    height: 80px;
-    width: 300px;
-    margin-top: 5px;
-    border: 1px solid black;
-    padding-right: 30px;
-    padding-left: 10px;
-} */
+
 .heroname{
     font-size: 160px;
     text-align: center;
@@ -98,6 +91,13 @@
     margin-top: 20px;
     position: sticky;
     mix-blend-mode: difference;
+  }
+  #links{
+    text-decoration: none;
+    color: white;
+  }
+  #links:hover{
+    color: brown;
   }
 
   @media only screen and (max-width: 768px){
