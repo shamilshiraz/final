@@ -1,14 +1,12 @@
-import React, { useRef, useEffect, useState, lazy, Suspense } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import './Horizontal.css';
+import Chinatown from './Chinatown';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { IoReturnDownBackOutline } from "react-icons/io5";
 
-// Lazy load the Chinatown component
-const Chinatown = lazy(() => import('./Chinatown'));
-
-// Lazy loading video component
-function LazyVideo({ src }) {
+// Video component without lazy loading
+function Video({ src }) {
     const videoRef = useRef(null);
     const [isInView, setIsInView] = useState(false);
 
@@ -45,26 +43,24 @@ function Horizontal() {
     const x = useTransform(scrollYProgress, [0, 1], ['1%', '-128%']);
 
     return (
-        <Suspense fallback={<div>Loading...</div>}>
-            <section ref={targetsec} className='holderworks' id='archives'>
-                <div className="holder2works">
-                    <div className="video-background-container">
-                        <LazyVideo src="/archives/china.mp4" />
-                    </div>
-                    <motion.div style={{ x }} className="holder3">
-                        <p style={{ marginTop: '50px', color: 'gray', position: 'fixed' }}>
-                            <Link to={'/'}><IoReturnDownBackOutline /></Link>
-                        </p>
-                        <p className='workh1'>//ARCHIVES</p>
-                        <Chinatown src='/archives/china.mp4' />
-                        <Chinatown src='/archives/kodai.mp4' />
-                        <Chinatown src='/archives/payyolipooram.mp4' />
-                        <Chinatown src='/archives/mumbai.mp4' />
-                        <Chinatown src='/archives/newspaper.mp4' />
-                    </motion.div>
+        <section ref={targetsec} className='holderworks' id='archives'>
+            <div className="holder2works">
+                <div className="video-background-container">
+                    <Video src="/archives/china.mp4" />
                 </div>
-            </section>
-        </Suspense>
+                <motion.div style={{ x }} className="holder3">
+                    <p style={{ marginTop: '50px', color: 'gray', position: 'fixed' }}>
+                        <Link to={'/'}><IoReturnDownBackOutline /></Link>
+                    </p>
+                    <p className='workh1'>//ARCHIVES</p>
+                    <Chinatown src='/archives/china.mp4' />
+                    <Chinatown src='/archives/kodai.mp4' />
+                    <Chinatown src='/archives/payyolipooram.mp4' />
+                    <Chinatown src='/archives/mumbai.mp4' />
+                    <Chinatown src='/archives/newspaper.mp4' />
+                </motion.div>
+            </div>
+        </section>
     );
 }
 
