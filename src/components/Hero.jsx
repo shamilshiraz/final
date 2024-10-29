@@ -118,7 +118,7 @@ const month = String(currentDate.getMonth() + 1).padStart(2, '0');
                           </section>
                           <p>أبو ظبي</p>
                         </div> */}
-      <p className='aboutme' data-aos="fade-up" style={{marginBlock:'40vh'}}><img src="./cover.png" height={'150px'} alt="" />A dedicated videographer with roots in Kerala, now based in the UAE. My passion lies in capturing compelling stories through the lens, drawing inspiration from my love for movies and the art of framing every moment with precision and creativity.</p>
+      <p className='aboutme' data-aos="fade-up" style={{marginBlock:'40vh'}}><img src="./them.jpg" height={'150px'} alt="" />A dedicated videographer with roots in Kerala, now based in the UAE. My passion lies in capturing compelling stories through the lens, drawing inspiration from my love for movies and the art of framing every moment with precision and creativity.</p>
 
       {/* <BTS/>
       <Texting/>

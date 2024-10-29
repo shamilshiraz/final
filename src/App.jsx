@@ -178,36 +178,15 @@ function App() {
                           <><p id='workmobhd'>//WORKS</p>
                           <Works/></>
                         ):null}
-                                                {isMobile?(<Mobilehor/>):null}
-                        <Texting />
-                        {
-                          isMobile?null:(
-                          <>
-                          {isTab?null:(<center>Have enquiries? Contact me via <a href="mailto:thameeeeem2002@gmail.com" id='links'> email</a></center>)       }
-                          </>)
-                        }
-                                                
-                        {/* <Gallery/> */}
+                        {isMobile?(<Mobilehor/>):null}<Texting />
                         {isMobile?null:(
-                          <>
-                          {isTab?null:(
-                            <Funny/>
-                          )}
-                          </>
-                      )}
-                        {isMobile?(
-                          <Contact/>
-                        ):null}
-                        {isTab?(
-                          <Contact/>
-                        ):null}
-
-
-                        {/* <Texting />
-                        <Contact /> */}
-                      </motion.div>
-                    } />
-
+                          <>{isTab?null:(<center>Have enquiries? Contact me via <a href="mailto:thameeeeem2002@gmail.com" id='links'> email</a></center>)       }</>)
+                        }
+                        {isMobile?null:(
+                          <>{isTab?null:(<Funny/>)}</>)}
+                        {isMobile?(<Contact/>):null}
+                        {isTab?(<Contact/>):null}
+                      </motion.div>} />
 <Route path='/works' element={
   <Suspense fallback={<div>Loading...</div>}>
     <motion.div {...pageTransition}>
