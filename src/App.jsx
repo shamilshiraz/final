@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import './App.css';
 import Hero from './components/Hero';
 import Loading from './components/Loading';
@@ -29,6 +29,7 @@ import Tabhor from './components/Tabhor';
 import { IoReturnDownBackOutline } from 'react-icons/io5';
 
 
+
 function App() {
   const location = useLocation(); // Get location for AnimatePresence
   const [isLoading, setIsLoading] = useState(true);
@@ -49,8 +50,8 @@ function App() {
     const lenis = new Lenis({
       duration: 3,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), 
-      smoothWheel: false,
-      smoothTouch: false, 
+      smoothWheel: true,
+      smoothTouch: true, 
     });
 
     function raf(time) {
