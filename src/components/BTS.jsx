@@ -16,7 +16,7 @@ function BTS() {
 
         </video>  
         <video autoPlay muted loop className='btsvid' >
-            <source src='./BTS/bts2.mp4'  type='video/mp4' />
+            <source src='./BTS/bts2.webm'  type='video/mp4' />
              this shit is not working
 
         </video>
