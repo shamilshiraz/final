@@ -89,8 +89,8 @@ const month = String(currentDate.getMonth() + 1).padStart(2, '0');
           </div>
           <div className="n1">
             <p id='smDs'>Let's connect</p>
-            <p><a href="" id='links'>INST</a> <a href="https://wa.me/971543303244" id='links'>WA</a></p>
-            <p><a href="" id='links'>EMAIL</a></p>
+            <p><a href="https://www.instagram.com/thameeeeem?igsh=MXQ1a3N1OWY0ZzJ3MQ==" id='links'>INST</a> <a href="https://wa.me/971543303244" id='links'>WA</a></p>
+            <p><a href="mailto:thameeeeem2002@gmail.com" id='links'>EMAIL</a></p>
           </div>
         </div>
         

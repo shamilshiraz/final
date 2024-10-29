@@ -14,7 +14,6 @@ import Display from './components/Display';
 import { motion, AnimatePresence } from 'framer-motion'; // Import AnimatePresence
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import Displaytwo from './components/Displaytwo';
-import Aboutme from './pages/Aboutme';
 import Funny from './components/Funny';
 import Displaythree from './components/Displaythree';
 import Displayfour from './components/Displayfour';
@@ -25,6 +24,7 @@ import Displayeight from './components/Displayeight';
 import Mobilehor from './components/Mobilehorizontal';
 import Tabhor from './components/Tabhor';
 import { IoReturnDownBackOutline } from 'react-icons/io5';
+import Cntct from './pages/Contactpage';
 const Displayworks = lazy(() => import('./pages/Displayworks'));
 const Archives = lazy(() => import('./pages/Archives'));
 const Contact = lazy(() => import('./components/Contact'));
@@ -165,9 +165,9 @@ function App() {
                         <div className="intronav" data-aos="fade-up">
                           <p>{`${day}/${month}`}</p>
                           <section className="animation">
-                            <div className="first"><div>Thameem</div></div>
+                            <div className="first"><div>Videographer</div></div>
                             <div className="second"><div>Cinematographer</div></div>
-                            <div className="third"><div>Filmmaker</div></div>
+                            <div className="third"><div>FilmMaker</div></div>
                           </section>
                           <p>أبو ظبي</p>
                         </div>
@@ -189,9 +189,7 @@ function App() {
                           <>
                           {
                             isTab?null:
-                              (<center>Have enquiries? Contact me via email</center>)
-                            
-        
+                              (<center>Have enquiries? Contact me via <a href="mailto:thameeeeem2002@gmail.com" id='links'> email</a></center>)       
                           }
                           </>)
                         }
@@ -226,14 +224,6 @@ function App() {
 } />
 
 
-                     <Route path='/aboutme' element={
-                      <Suspense fallback={<div>Loading...</div>}>
-                      <motion.div {...pageTransition}>
-                        <Aboutme/>
-                      </motion.div>
-                      </Suspense>
-                    } />
-
                      <Route path='/archives' element={
                                             <Suspense fallback={<div>Loading...</div>}>
                       <motion.div {...pageTransition}>
@@ -242,9 +232,9 @@ function App() {
                       </Suspense>
                     } />
                       <Route path='/contactpage' element={
-                                                                    <Suspense fallback={<div>Loading...</div>}>
+                      <Suspense fallback={<div>Loading...</div>}>
                       <motion.div {...pageTransition}>
-                      <p style={{marginTop:'50px',color:'gray',position:'fixed'}} ><Link to={'/'}><IoReturnDownBackOutline /></Link></p>
+                      {/* <p style={{marginTop:'50px',color:'gray',position:'relative'}} ><Link to={'/'}><IoReturnDownBackOutline /></Link>CONNECT</p> */}
                         <Contact/>
                       </motion.div>
                       </Suspense>

@@ -19,7 +19,7 @@ function Displayfour() {
 
   return (
     <>
-      <div className="display" style={{backgroundImage:'url(./works/redmibg.webp)',color:'antiquewhite',backgroundColor:'blue'}}>
+      <div className="display" style={{backgroundImage:'url(./works/redmitry.webp)',color:'antiquewhite',backgroundColor:'black'}}>
         <div className="dispara">
           <p className='disheading'>REDMI 13</p>
           <marquee behavior="" direction="" scrollamount="10" scrolldelay="50" className='dismarq'>
