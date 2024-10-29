@@ -175,22 +175,15 @@ function App() {
                         <Texting />
                         <BTS />
                         {isMobile?(
-                          <>
-                          <p id='workmobhd'>//WORKS</p>
-                          <Works/>
-                          </>
+                          <><p id='workmobhd'>//WORKS</p>
+                          <Works/></>
                         ):null}
-                                                {isMobile?(
-                          <Mobilehor/>
-                        ):null}
+                                                {isMobile?(<Mobilehor/>):null}
                         <Texting />
                         {
                           isMobile?null:(
                           <>
-                          {
-                            isTab?null:
-                              (<center>Have enquiries? Contact me via <a href="mailto:thameeeeem2002@gmail.com" id='links'> email</a></center>)       
-                          }
+                          {isTab?null:(<center>Have enquiries? Contact me via <a href="mailto:thameeeeem2002@gmail.com" id='links'> email</a></center>)       }
                           </>)
                         }
                                                 
