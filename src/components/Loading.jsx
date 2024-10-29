@@ -6,10 +6,9 @@ function Loading({fadeOut}) {
   const [loadingPercentage, setLoadingPercentage] = useState(0);
 
   useEffect(() => {
-    const duration = 5000; // 5 seconds
+    const duration = 10000;
     const intervalTime = 50; // Update every 50ms
     const step = 100 / (duration / intervalTime); // Calculate step increment
-
     const interval = setInterval(() => {
       setLoadingPercentage((prev) => {
         if (prev >= 100) {

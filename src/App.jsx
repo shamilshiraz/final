@@ -43,7 +43,7 @@ function App() {
       setTimeout(() => {
         setIsLoading(false); // Remove loading screen after fade-up completes
       }, 1500); 
-    }, 5000);
+    }, 10000);
   }, []);
 
 
@@ -238,20 +238,17 @@ function App() {
                         <Contact/>
                       </motion.div>
                       </Suspense>
-                    } />
-                    
+                    } />                    
                     <Route path='/nbhd' element={
                       <motion.div {...pageTransition}>
                         <Display />
                       </motion.div>
                     } />
-
                     <Route path='/mouzmari' element={
                       <motion.div {...pageTransition}>
                         <Displaytwo />
                       </motion.div>
                     } />
-
                   <Route path='/zeina' element={
                       <motion.div {...pageTransition}>
                         <Displaythree />
@@ -287,12 +284,7 @@ function App() {
               </div>
             )
           }
-        </div>
-      </div>
-    </div>
-  );
-}
-
+        </div></div></div>);}
 export default App;
 
 
