@@ -25,7 +25,7 @@ function Displayseven() {
           <marquee behavior="" direction="" scrollamount="10" scrolldelay="50" className='dismarq'>
             -CARS-DETAILING-CERAMIC-PPF-PREMIUM WRAPPING-DETAILING-
           </marquee>
-          <p className='disarab'>ن ح ب د</p>
+          <p className='disarab'>لدريتس</p>
           <p className='disdes'>
           Leadrights Automotive in Abu Dhabi provides specialized car detailing, vehicle wrapping, and window tinting services. Known for its quality work on luxury cars, particularly Tesla models, it offers premium services like ceramic coating and PPF (paint protection film).
           </p>

@@ -23,9 +23,9 @@ function Displaysix() {
         <div className="dispara">
           <p className='disheading'>SUROUR JOLAIRE</p>
           <marquee behavior="" direction="" scrollamount="10" scrolldelay="50" className='dismarq'>
-            -CAFE-BAR-WHOLESOME-COCKTAILS-NATURAL WINES-YAS CREATIVE HUB-
+            -JEWELLERY-ANTIQUES-PRETTY-SUROUR-UNIQUE-
           </marquee>
-          <p className='disarab'>ن ح ب د</p>
+          <p className='disarab'>سرور جلير  </p>
           <p className='disdes'>
           Surour Jolaire is a fine jewelry brand that was established in 2024, specializing in contemporary, elegant designs that draw inspiration from nature. The brand prides itself on creating high-quality pieces using 18k gold and VS natural diamonds, all of which are crafted in the UAE. Their jewelry is designed to capture the beauty found in natural forms, with collections like the Spiral Collection, which is inspired by the spirals seen in natural elements such as vines and storms.
 </p>

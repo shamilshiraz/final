@@ -23,7 +23,7 @@ function Displayfour() {
         <div className="dispara">
           <p className='disheading'>REDMI 13</p>
           <marquee behavior="" direction="" scrollamount="10" scrolldelay="50" className='dismarq'>
-            -CAFE-BAR-WHOLESOME-COCKTAILS-NATURAL WINES-YAS CREATIVE HUB-
+            -XIAOMI-REDMI13-CAMERA-GAMING-NEX GEN-
           </marquee>
           <p className='disarab'>ن ح ب د</p>
           <p className='disdes'>
