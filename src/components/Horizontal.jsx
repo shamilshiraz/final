@@ -54,7 +54,7 @@ function Horizontal() {
                     </p>
                     <p className='workh1'>//ARCHIVES</p>
                     <Chinatown src='/archives/china.mp4' />
-                    <Chinatown src='/archives/kodai.webm' />
+                    <Chinatown src='/archives/kodai.mp4' />
                     <Chinatown src='/archives/payyolipooram.mp4' />
                     <Chinatown src='/archives/mumbai.mp4' />
                     <Chinatown src='/archives/newspaper.mp4' />
